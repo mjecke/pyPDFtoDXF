@@ -19,8 +19,13 @@ Better to extract just a single page or range of pages instead if that is all yo
 Also this method has trouble with converting certain types of text in PDFs into DXF.  
 It works mainly for polys and other vectors, e.g. drawings that were originally CAD or SVG and saved into PDF.  
 
-Usage:
+Example Usage:
 
-python pdftodxf.py input.pdf output
+python pdftodxf.py input.pdf output 
+%% takes all pages of file named input.pdf and saves svgs and dxfs into folder named output
+
+python pdftodxf.py input.pdf output -p 3,4
+%% takes just pages 3 and 4 of input.pdf and saves svgs and dxfs into folder named output 
+
 
 
