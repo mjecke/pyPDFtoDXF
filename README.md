@@ -14,10 +14,10 @@ pip install PyPDF2
 Script is just gluing together pdf2svg to make a svg, and then inkscape processes the svg to a dxf. 
 Saves the svg in output folder along with dxf.
 Note that this can be slow if your PDF has many, many pages to go thru as the inscape process has to be called once-per-page.
-Better to extract just a single page instead if that is all you need.
+Better to extract just a single page or range of pages instead if that is all you need (see input args).
 
 Also this method has trouble with converting certain types of text in PDFs into DXF.  
-It works mainly for polys and other vectors, e.g. drawings that were originally CAD and saved into PDF.  
+It works mainly for polys and other vectors, e.g. drawings that were originally CAD or SVG and saved into PDF.  
 
 Usage:
 
