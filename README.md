@@ -26,7 +26,7 @@ python pdftodxf.py input.pdf output
 
 %% takes all pages of file named input.pdf and saves svgs and dxfs into folder named output
 
-python pdftodxf.py input.pdf output -p 3,4
+python PDFtoDXF.py input.pdf output -p 3,4
 
 %% takes just pages 3 and 4 of input.pdf and saves svgs and dxfs into folder named output 
 
