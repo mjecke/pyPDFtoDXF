@@ -5,11 +5,12 @@ Quick and dirty script to pull vector graphics from a PDF and export to DXF draw
 inkscape
 pdf2svg
 
+!!!! Requires 'inkscape' and 'pdf2svg' to be in system path !!!!
+
 ## Python Requirements:
 
 pip install PyPDF2
 
-## !!!! Requires 'inkscape' and 'pdf2svg' to be in system path !!!!
 
 Script is just gluing together pdf2svg to make a svg, and then inkscape processes the svg to a dxf. 
 Saves the svg in output folder along with dxf.
